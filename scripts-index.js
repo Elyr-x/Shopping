@@ -4,16 +4,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const productList = document.getElementById("product-list");
 
     let products = [
-        { id: 1, name: "ASUS ROG STRIX", category: "Laptop", price: 800, image: "image/2.jpg" },
-        { id: 2, name: "TecnoPova 6", category: "Phone", price: 500, image: "image/Tecno.jpg" },
-        { id: 3, name: "Headphones", category: "Audio", price: 100, image: "image/1.jpg" },
-        { id: 4, name: "Canon EOS R7", category: "Electronics", price: 300, image: "image/3.jpg" },
-        { id: 5, name: "Apple iPad 10.9 Inches (10th Gen)", category: "Gadget", price: 400, image: "image/4.jpg" },
+        { id: 1, name: "ASUS ROG STRIX", category: "Laptop", price: 800, image: "2.jpg" },
+        { id: 2, name: "TecnoPova 6", category: "Phone", price: 500, image: "Tecno.jpg" },
+        { id: 3, name: "Headphones", category: "Audio", price: 100, image: "1.jpg" },
+        { id: 4, name: "Canon EOS R7", category: "Electronics", price: 300, image: "3.jpg" },
+        { id: 5, name: "Apple iPad 10.9 Inches (10th Gen)", category: "Gadget", price: 400, image: "4.jpg" },
         { id: 6, name: "NEW H9 Smart Watch", category: "Wearable", price: 200, image: "image/5.jpg" },
-        { id: 7, name: "Inplay NK1040-B Mechanical Keyboard", category: "Accessories", price: 50, image: "image/6.jpg" },
-        { id: 8, name: "Inplay M066 RGB Gaming Mouse", category: "Accessories", category: "Moouse", price: 40, image: "image/7.jpg" },
-        { id: 9, name: "Samsung 22 LED Borderless Monitor", category: "Display", price: 250, image: "image/8.jpg" },
-        { id: 10, name: "NOOTRY Computer Speakers", category: "Audio", price: 150, image: "image/9.jpg" },
+        { id: 7, name: "Inplay NK1040-B Mechanical Keyboard", category: "Accessories", price: 50, image: "6.jpg" },
+        { id: 8, name: "Inplay M066 RGB Gaming Mouse", category: "Accessories", category: "Moouse", price: 40, image: "7.jpg" },
+        { id: 9, name: "Samsung 22 LED Borderless Monitor", category: "Display", price: 250, image: "8.jpg" },
+        { id: 10, name: "NOOTRY Computer Speakers", category: "Audio", price: 150, image: "9.jpg" },
     ];
 
     function updateCartCount() {
